@@ -1,3 +1,12 @@
+/*
+4. Develop a To-Do List Application using React functional components that demonstrates the use of the
+useState hook for state management. Create a functional component named ToDoFunction to manage and
+display the to-do list. Maintain a list of tasks using state. Provide an input field for users to
+add new tasks. Dynamically render the list of tasks below the input field. Ensure each task is
+displayed in a user-friendly manner. Allow users to delete tasks from the list. Mark tasks as
+completed or pending, and visually differentiate them.
+*/
+
 import { useState } from 'react';
 import './App.css';
 

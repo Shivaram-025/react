@@ -1,3 +1,12 @@
+/*
+8. Develop a Reminder Application that allows users to efficiently manage their tasks. The application
+should include the following functionalities: Provide a form where users can add tasks along with due dates.
+The form includes task name, Due date, An optional description. Display a list of tasks dynamically
+as they are added. Show relevant details like task name, due date, and completion status. Include a
+filter option to allow users to view all Tasks and Display all tasks regardless of status. Show only
+tasks marked as completed. Show only tasks that are not yet completed.
+*/
+
 import { useState } from 'react';
 import './App.css';
 import Filter from './components/Filter';

@@ -1,6 +1,10 @@
-// 1. Use create-react-app to set up a new project. Edit the App.js file to include a stateful component with 
-// useState. Add an input field and a element that displays text based on the input. Dynamically update the 
-// content as the user types.
+/*
+1. Use create-react-app to set up a new project. Edit the App.js file to include a stateful component with 
+useState. Add an input field and a element that displays text based on the input. Dynamically update the 
+content as the user types.
+
+npx create-react-app my-dynamic-app
+*/
 
 
 import { useState } from 'react';

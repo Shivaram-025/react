@@ -1,3 +1,16 @@
+/*
+10. Design a React application featuring a class-based component that demonstrates the use of lifecycle
+methods to interact with an external API. The component should fetch and update data dynamically based
+on user interactions or state changes. Use the componentDidMount lifecycle method to fetch data from an
+API when the component is initially rendered. Display the fetched data in a structured format, such as a
+table or list. Use the componentDidUpdate lifecycle method to detect changes in the component’s state or
+props. Trigger additional API calls to update the displayed data based on user input or actions
+(e.g., filtering, searching, or pagination). Implement error handling to manage issues such as failed
+API requests or empty data responses. Display appropriate error messages to the user when necessary.
+Allow users to perform actions like filtering, searching, or refreshing the data. Reflect changes in
+the displayed data based on these interactions.
+*/
+
 import { Component } from 'react';
 
 const API_URL = 'https://jsonplaceholder.typicode.com/users';

@@ -1,3 +1,15 @@
+/*
+3. Create a Counter Application using React that demonstrates state management with the useState hook.
+Display the current value of the counter prominently on the screen. Add buttons to increase and decrease
+the counter value. Ensure the counter updates dynamically when the buttons are clicked. Use the useState
+hook to manage the counter’s state within the component. Prevent the counter from going below a specified
+minimum value (e.g., 0). Add a “Reset” button to set the counter back to its initial value.
+Include functionality to specify a custom increment or decrement step value.
+
+npx create-react-app counter-app
+*/
+
+
 import { useState } from 'react';
 import './App.css';
 
